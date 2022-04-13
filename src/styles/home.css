@@ -1,0 +1,19 @@
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(500px,1fr));
+    
+}
+
+.column-carousel{
+    
+}
+
+
+@media (max-width: 300px){
+
+}

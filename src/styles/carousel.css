@@ -1,0 +1,28 @@
+.container_corousel{
+    position: relative;
+    margin:0;
+    padding: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imageProduct{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.dot_container{
+    position: absolute;
+    bottom: 0px;
+}
+
+.dot{
+    cursor: pointer;
+    margin: 5px;
+}
+
