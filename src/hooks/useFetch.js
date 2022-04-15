@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+//hook to perfom fetch to differents API whitout headers, body, Auth etc. 
 export default function useFetch(URL){
     const [data,setData]=useState(null);
     const [loading, setLoading]=useState(false);

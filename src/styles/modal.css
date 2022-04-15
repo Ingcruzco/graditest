@@ -1,0 +1,86 @@
+.modal-container{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.form-modal{
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    background-color: aliceblue;
+    width: 80vw;
+    height: 600px;
+}
+
+.title-modal{
+    margin: 10px;
+    width: 90%;
+    font-size: large;
+}
+
+.name-product{
+    font-size: small;
+}
+
+.quantity-products{
+    width: 100%;
+    font-weight: 500;
+}
+
+.amount-products{
+    width: 100%;
+    color:gray;
+    font-weight: 500;
+}
+
+.image-modal{
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.button-modal[color="gray"]{
+    cursor: pointer;
+    color: #000;
+    background-color: #d2d2d2;
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-modal[color="black"]{
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+/* 
+.button-modal {
+    background: #2196F3;
+} */
+
+@media (min-width: 800px) {
+    .form-modal{
+        width: 50%;
+        height: 600px;
+    }
+}

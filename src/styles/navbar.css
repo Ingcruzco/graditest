@@ -1,0 +1,11 @@
+.header{
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(90deg,#31E4FF, #5369FF);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left:0;
+}

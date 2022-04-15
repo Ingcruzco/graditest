@@ -16,7 +16,7 @@ function Carousel({images=[]}) {
         {
           images?.map( (img,index)=>(
             <span className='dot' key={index} onClick={handleClick} data-position={index}>
-              {index==position ? "● " : "o "}
+              {index==position ? "● " : "O "}
             </span>
           ))
         }          

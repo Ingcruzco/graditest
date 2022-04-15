@@ -1,0 +1,28 @@
+.cart-icon-container{
+    position: relative;
+    background-image: url('/public/images/icon-cart.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 25px;
+    width: 25px;
+    z-index: 99;
+    color: #000000;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.number-products{
+    cursor: pointer;
+    position: absolute;
+    top: -4px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 60%;
+    border: none;
+    background-color: red;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
