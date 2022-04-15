@@ -9,7 +9,7 @@ export default function Navigation() {
 
   return (
     <header className='header'>
-        <h1 style={{cursor:'pointer'}} onClick={()=>navigate('/')}>GradiTEST</h1>
+        <img className='image-logo' src='graditestlogo.png' alt='logo-graditest' style={{cursor:'pointer'}} onClick={()=>navigate('/')} />     
         <Iconcart/>
     </header>
   )

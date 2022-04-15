@@ -76,7 +76,7 @@ function FormProduct({data}) {
             <div className='prices'>
                 <span className='price'>$ {normalizeCurrency(data?.price)}</span>
                 {
-                    //normalize currency is necesarie to correct amount returned for the API
+                    //normalize currency is necessary to correct amount returned for the API
                 }
                 <span className='compare_at_price'>$ {normalizeCurrency(data?.compare_at_price)}</span>
             </div>
