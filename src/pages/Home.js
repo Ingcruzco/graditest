@@ -1,9 +1,7 @@
-import { useContext } from 'react';
 import Carousel from '../components/Carousel';
 import Gridproducts from '../components/Gridproducts';
 import FormProduct from '../components/References';
 import Spinner from '../components/Spinner';
-import { ShoppingContext } from '../context/ShoppingContext';
 import useFetch from '../hooks/useFetch';
 import '../styles/home.css'
 
