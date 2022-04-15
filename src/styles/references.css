@@ -221,8 +221,18 @@
 
 @media (min-width:720px){
     .container_reference{
+        height: 100%;
         grid-template-rows: 1fr;
         grid-area: 1 / 2 / 4 / 3;
+    }
+    .color_container{
+        padding: 20px 0px;
+    }
+    .price{
+        padding: 20px 0px;
+    }
+    .sizes-container{
+        padding: 20px 0px;
     }
 }
 
