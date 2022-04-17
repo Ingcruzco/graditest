@@ -66,8 +66,8 @@
 .item-color{
     list-style-type: none;
     display: flex;
-    height: 30px;
-    width: 30px;
+    min-height: 30px;
+    min-width: 30px;
     cursor: pointer;
     margin: 0px 10px;
     border-radius: 50%;
@@ -79,8 +79,8 @@
 .item-color.active{
     list-style-type: none;
     display: flex;
-    height: 30px;
-    width: 30px;
+    min-height: 30px;
+    min-width: 30px;
     cursor: pointer;
     margin: 0px 10px;
     border: 2px solid #d2d2d2;
@@ -90,12 +90,15 @@
 }
 
 .color_options{
-    width:15px;
-    height:15px;
+    min-width:15px;
+    min-height:15px;
     border-radius:50%;
     border: none;
     cursor: pointer;
+}
 
+.color-options:focus{
+    outline:none;
 }
 .color_options[color="Red"]{
     background-color: red;
@@ -136,7 +139,10 @@
     vertical-align: middle;
     border: 2px solid #d2d2d2;
     color: #d2d2d2;
-    height: 36px;
+    max-height: 36px;
+    min-height: 36px;
+    max-width: 36px;
+    min-width: 36px;
     cursor: pointer;
 }
 
@@ -247,8 +253,10 @@
     }
 
     .item-size{
-        width: 30px;
-        height: 30px;
+        min-width: 30px;
+        max-width: 30px;
+        max-height: 30px;
+        min-height: 30px;
     }
 
     .btns-container{

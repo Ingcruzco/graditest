@@ -21,7 +21,7 @@
     align-items:center;
     background-color: aliceblue;
     width: 80vw;
-    height: 600px;
+    height: 80vh;
 }
 
 .title-modal{
@@ -47,7 +47,7 @@
 
 .image-modal{
     width: 80%;
-    height: 200px;
+    height: 30vh;
     object-fit: contain;
 }
 
@@ -60,6 +60,7 @@
     width: 200px;
     margin-left: 10px;
     transition: all 0.3s ease-in-out;
+    padding: 5px;
 }
 
 .button-modal[color="black"]{
@@ -71,6 +72,7 @@
     margin-left: 10px;
     transition: all 0.3s ease-in-out;
     background-color: black;
+    padding: 5px;
 }
 
 /* 
@@ -81,6 +83,8 @@
 @media (min-width: 800px) {
     .form-modal{
         width: 50%;
-        height: 600px;
+        height: fit-content;
+        padding: 10px;
     }
+
 }

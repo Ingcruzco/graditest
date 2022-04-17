@@ -8,8 +8,12 @@ export default function Cart() {
 
     const {shopping,setShopping}=useContext(ShoppingContext);
 
+    const handleDeleteProduct=(index)=>{
+        const temp=shopping.products.filter((_,item)=>item!==index);
+        setShopping({products:temp});
+    }
 
-  return (
+    return (
         <ul className='cart-container'>
             {
                 shopping.products.map((product,index)=>(
@@ -18,6 +22,7 @@ export default function Cart() {
                         <span>{product.name}</span>
                         <span>Items: {product.quantity}</span>
                         <span>Total price: $ {normalizeCurrency(product.totalPrice)}</span>
+                        <button className='btn-delete-product' onClick={()=>handleDeleteProduct(index)}>Delete</button>
                     </li>
                 ))
             }
